@@ -33,13 +33,12 @@ body {
   /* дополнительные стили для этого примера */
   .slider__items {
      margin-left: 15%;
-	  width: calc(974px + (1920 - 1820) * ((100vw - 1024px) / (1920 - 1820)));
      counter-reset: slide;
   }
 
   .slider__item {
     display: block;
-    min-width:  calc(974px + (1920 - 1820) * ((100vw - 1024px) / (1920 - 1820)));
+    min-width: 100%;
     height: 100vh;
     vertical-align: top !important;
     counter-increment: slide;

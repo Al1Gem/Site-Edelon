@@ -33,7 +33,7 @@ body {
   /* дополнительные стили для этого примера */
   .slider__items {
      margin-left: 15%;
-	min-width:  calc(974px + (1920 - 1820) * ((100vw - 1024px) / (1920 - 1820)));
+	
      counter-reset: slide;
   }
 

@@ -32,7 +32,7 @@ body {
 
   /* дополнительные стили для этого примера */
   .slider__items {
-     margin-left: 20%;
+     margin-left: 10%;
 	
      counter-reset: slide;
   }
